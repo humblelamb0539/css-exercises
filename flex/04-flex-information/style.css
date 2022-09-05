@@ -8,10 +8,28 @@ img {
 }
 
 .title {
+  align-self: center;
   font-size: 36px;
   font-weight: 900;
 }
-
+.container {
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  gap: 52px;
+  display: flex;
+}
+.text {
+  text-align: center;
+  display: flex;
+}
+.item {
+  flex-direction: column;
+  display: flex;
+  align-items:center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
